@@ -1,0 +1,326 @@
+/* SALT browser theme. Canvas theme CSS file loads DesignPlus, then this file.
+   Shared SALT styles live in salt.css. */
+@import url("salt.css");
+
+:root {
+    --dt-color-primary: #b32839;
+    --dt-color-primary-contrast: #dddddd;
+    --dt-color-primary-dark-text: #000000;
+    --dt-color-secondary: #a6cbd1;
+    --dt-color-secondary-contrast: #165966;
+    --dt-color-secondary-dark-text: #75715c;
+    --dt-color-accent: #969696;
+    --dt-color-accent-contrast: #000000;
+    --dt-color-accent-dark-text: #607478;
+    --dt-color-gray: #bfbfbf;
+    --dt-color-gray-contrast: #000000;
+    --dt-color-gray-dark-text: #636363;
+    --dt-color-white: #dddddd;
+    --dt-color-white-contrast: #000000;
+    --dt-color-white-dark-text: #707070;
+}
+/* =====================================================
+   CUSTOM ACTIVE MODULE COLORS
+   ===================================================== */
+
+/* =====================================================
+   MANUFACTURING MODULE — ORANGE ACTIVE, HOVER, AND FOCUS
+   ===================================================== */
+
+/* Active or selected module */
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading.active,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading[aria-selected="true"],
+body
+    .dp-wrapper
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a[id^="dpPaneldpQuickLinksCourse"].active,
+body
+    .dp-wrapper
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a[id^="dpPaneldpQuickLinksCourse"][aria-selected="true"] {
+    background: #c44d00 !important;
+    background-color: #c44d00 !important;
+    background-image: none !important;
+    border-color: #c44d00 !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+/* Hovered or focused module */
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    nav.dp-module-list-item-group
+    a.nav-link.dp-panel-heading:hover,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    nav.dp-module-list-item-group
+    a.nav-link.dp-panel-heading:focus,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    nav.dp-module-list-item-group
+    a.nav-link.dp-panel-heading:focus-visible {
+    background: #c44d00 !important;
+    background-color: #c44d00 !important;
+    background-image: none !important;
+    border-color: #c44d00 !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+/* Keep the icon and inner content white */
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading.active
+    i,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading.active
+    span,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading[aria-selected="true"]
+    i,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading[aria-selected="true"]
+    span,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading:hover
+    i,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading:hover
+    span,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading:focus
+    i,
+body
+    #content
+    .dp-module-list.dp-panel-active-color-manufacturing
+    a.nav-link.dp-panel-heading:focus
+    span {
+    color: #ffffff !important;
+}
+/* Dental active module */
+.dp-module-list.dp-panel-active-color-dental .nav-link.dp-panel-heading.active,
+.dp-module-list.dp-panel-active-color-dental .nav-link.dp-panel-heading.active:hover,
+.dp-module-list.dp-panel-active-color-dental .nav-link.dp-panel-heading.active:focus {
+    background-color: #006d8f !important;
+    background-image: none !important;
+    border-color: #006d8f !important;
+    color: #ffffff !important;
+}
+
+/* Drafting active module */
+.dp-module-list.dp-panel-active-color-drafting .nav-link.dp-panel-heading.active,
+.dp-module-list.dp-panel-active-color-drafting .nav-link.dp-panel-heading.active:hover,
+.dp-module-list.dp-panel-active-color-drafting .nav-link.dp-panel-heading.active:focus {
+    background-color: #002458 !important;
+    background-image: none !important;
+    border-color: #002458 !important;
+    color: #ffffff !important;
+}
+
+/* Keep active module icons and internal text white */
+.dp-module-list[class*="dp-panel-active-color-"] .nav-link.dp-panel-heading.active i,
+.dp-module-list[class*="dp-panel-active-color-"] .nav-link.dp-panel-heading.active span {
+    color: #ffffff !important;
+}
+
+.show-content.user_content.clearfix.enhanced:has(.salt-page) {
+    overflow: visible !important;
+    overflow-y: visible !important;
+}
+
+/*********************************************************************/
+/***** END DESIGNPLUS THEME IMPORT & CUSTOMIZATION   *****************/
+/*********************************************************************/
+.question_holder {
+    page-break-inside: avoid;
+}
+.answer {
+    page-break-inside: avoid;
+}
+.business {
+    background-color: #e6b800;
+    border-color: #e6b800;
+    /* This color matches the original banner image, not the similar color scheme used by Lisa. */
+}
+.construction {
+    background-color: #f6a200;
+    border-color: #f6a200;
+}
+.healthprof {
+    background-color: #89cccc;
+    border-color: #89cccc;
+}
+.manufacturing {
+    background-color: #c2db72;
+    border-color: #c2db72;
+}
+.service {
+    background-color: #584c78;
+    border-color: #584c78;
+}
+.transportation {
+    background-color: #2f87ff;
+    border-color: #2f87ff;
+}
+.college {
+    /* The college red, e.g. for academic development buttons */
+    background-color: #b32839;
+    border-color: #b32839;
+}
+.navbutton {
+    /* effectively navbutton-5 */
+    vertical-align: middle;
+    color: #fff !important;
+    text-decoration: none !important;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-right: 1px #89cccc outset;
+    border-bottom: 1px #89cccc outset;
+    font-family: LatoWeb, Helvetica, Arial;
+    box-sizing: border-box;
+    min-width: 160px;
+    width: 19.8%;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-left: 0.2%;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.navbutton-3 {
+    vertical-align: middle;
+    color: #fff !important;
+    text-decoration: none !important;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-right: 1px #89cccc outset;
+    border-bottom: 1px #89cccc outset;
+    font-family: LatoWeb, Helvetica, Arial;
+    box-sizing: border-box;
+    min-width: 160px;
+    width: 33%;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-left: 0.33%;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.navbutton:hover {
+    filter: brightness(85%);
+}
+.navbutton-3:hover {
+    filter: brightness(85%);
+}
+
+.navcontainer {
+    width: 100%;
+    min-height: 45px;
+}
+
+.user_content img.schoolbanner {
+    width: 99.8%;
+    box-sizing: border-box;
+    margin-bottom: -6.5pt;
+    margin-left: 0.2%;
+}
+
+@media only screen and (max-width: 1174px) {
+    .navbutton {
+        width: 33%;
+        max-width: 391px;
+        margin-left: 0.33%;
+    }
+    .navcontainer {
+        height: 90px;
+    }
+    .user_content img.schoolbanner {
+        width: 99.67%;
+        margin-left: 0.33%;
+    }
+}
+
+@media only screen and (max-width: 837px) {
+    .navbutton {
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    .navbutton-3 {
+        width: 100%;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    .navcontainer {
+        height: 225px;
+    }
+    .schoolbanner {
+        display: none;
+    }
+}
+
+/* Browser: align showcase content with the sidebar toggle */
+@media (min-width: 901px) {
+    .salt-page:has(> .salt-elements-layout) {
+        display: grid;
+        grid-template-columns: 210px minmax(0, 1fr);
+        column-gap: 32px;
+        align-items: start;
+    }
+
+    .salt-page:has(> .salt-elements-layout) > .salt-page-banner {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+    .salt-page:has(> .salt-elements-layout) > .salt-sidebar-toolbar {
+        grid-column: 1;
+        grid-row: 2;
+        align-self: start;
+        max-width: 100%;
+        margin-bottom: 0 !important;
+    }
+
+    .salt-page > .salt-elements-layout {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        min-width: 0;
+    }
+
+    .salt-page > .salt-elements-layout > .salt-sidebar {
+        margin-top: 70px !important;
+    }
+
+    .salt-page .salt-elements-main > #salt-elements-overview {
+        padding-top: 4px !important;
+    }
+
+    .salt-page .salt-elements-layout.salt-sidebar-is-hidden > .salt-elements-main {
+        padding-top: 70px !important;
+    }
+}
