@@ -9,4 +9,4 @@ Canvas **Beta** loads SALT from here. Canvas **production** loads from
   through a pull request.
 - Full steps: [Testing SALT in Canvas Beta](https://github.com/DTC-EdEx/dtc-programs/blob/main/docs/canvas-beta-testing.md)
 
-Last synced with production: DTC-Main-SALT commit `466913d`.
+Last synced with production: DTC-Main-SALT commit `f6ce24e`.

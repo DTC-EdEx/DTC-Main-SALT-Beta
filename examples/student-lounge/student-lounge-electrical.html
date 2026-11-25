@@ -1,0 +1,92 @@
+<!--
+    SALT STUDENT LOUNGE HOME PAGE — paste into the HTML editor of the Student Lounge's Front Page.
+
+    To reuse for another program, change:
+      1. salt-program-electrical → the program's class (salt-program-plumbing, salt-program-hvac, ...)
+      2. TEEL 0000 / Electrical Apprenticeship → the code and program name (title bar AND data-salt-welcome)
+      3. The banner <img> src and alt
+      4. The Essential Industry Skills link, Description, and Objectives
+
+    {fullname} in data-salt-welcome becomes the student's full name ({name} gives the short name).
+    Each .salt-home-tab-panel becomes one tab; its .salt-home-tab-title is the tab's label.
+-->
+<div class="salt-home salt-program-electrical">
+    <h2 class="salt-home-title"><span class="salt-home-code">TEEL 0000</span> <span>Electrical Apprenticeship &ndash; Student Lounge</span></h2>
+    <div class="salt-home-banner"><img src="https://davistech.instructure.com/courses/632716/files/125069132/preview" alt="Electrical banner of a student wiring a panel" /></div>
+    <nav class="salt-home-nav" aria-label="Student Lounge quick links">
+        <ul>
+            <li><a href="https://davistech.instructure.com/courses/632716/external_tools/107314" target="_blank" rel="noopener" data-icon="orientation">Program Orientation</a></li>
+            <li><a href="https://portal.davistech.edu/Portal/" target="_blank" rel="noopener" data-icon="portal">Student Portal</a></li>
+            <li><a href="https://davistech.instructure.com/courses/632716/pages/advising-and-support-shawn" data-icon="lounge">Advising and Support</a></li>
+        </ul>
+    </nav>
+    <div class="salt-home-card">
+        <h2 class="salt-home-welcome" data-salt-welcome="Welcome {fullname} to the Electrical Apprenticeship Program">Welcome to the Electrical Apprenticeship Program</h2>
+        <p class="salt-home-intro">Before you begin, open the <strong>Description</strong> and <strong>Objectives</strong> below. Then review the <a href="https://www.davistech.edu/programs/electrical-apprenticeship/essential-skills" target="_blank" rel="noopener">Essential Industry Skills</a> required for this program.</p>
+        <div class="salt-home-about">
+            <details class="salt-home-details">
+                <summary>Description</summary>
+                <div class="salt-home-details-body">
+                    <p>The Electrical Apprenticeship program provides a solid understanding of the National Electrical Code (NEC), its layout, the requirements for different electrical systems, and the components of those systems. This program discusses the risks associated with electricity and electrical systems, as well as the safety equipment and measures in place to protect electricians and the general public alike.</p>
+                </div>
+            </details>
+            <details class="salt-home-details">
+                <summary>Objectives</summary>
+                <div class="salt-home-details-body">
+                    <p>The Electrical Apprenticeship program is designed to prepare students for the Journeyman exam administered by the Utah Division of Occupational and Professional Licensing (DOPL). This program meets the state&rsquo;s requirement for related instruction. Students will have the opportunity to learn and apply the following while enrolled in the Electrical Apprenticeship Program:</p>
+                    <ul>
+                        <li>Identify and explain:
+                            <ul>
+                                <li>National Electrical Code sections relating to residential and commercial installations, as well as motors and motor controls</li>
+                                <li>National Electrical Code requirements relating to Grounding and Bonding</li>
+                                <li>Transformer operation</li>
+                                <li>The application of various AC and DC Motors</li>
+                            </ul>
+                        </li>
+                        <li>Explain electrical theory</li>
+                        <li>Identify various raceways and fittings</li>
+                        <li>Perform calculations and solve problems relating to series, parallel, and combination circuits</li>
+                        <li>Demonstrate knowledge of alternating current theory</li>
+                        <li>Develop, draw, and wire basic motor control circuits</li>
+                        <li>Demonstrate comprehensive knowledge of the National Electrical Code, as well as knowledge of leadership, supervision, and project planning</li>
+                        <li>Prepare to take the Utah Journeyman Electrician Exam</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+        <p class="salt-home-hint">Select a tab below to find Davis Technical College resources.</p>
+        <div class="salt-home-tabs" data-label="Davis Technical College resources">
+            <div class="salt-home-tab-panel">
+                <h3 class="salt-home-tab-title">Program Essentials &amp; Coursework</h3>
+                <div class="salt-home-buttons">
+                    <a class="salt-home-button" href="https://davistech.instructure.com/courses/632716/pages/course-completion-instructions">Course Completion Instructions</a>
+                </div>
+            </div>
+            <div class="salt-home-tab-panel">
+                <h3 class="salt-home-tab-title">Academic &amp; Advising Support</h3>
+                <div class="salt-home-buttons">
+                    <a class="salt-home-button" href="https://davistech.instructure.com/courses/632716/pages/advising-and-support-shawn">Advising and Support</a>
+                    <a class="salt-home-button" href="https://davistech.instructure.com/courses/632716/pages/peer-mentorship">Peer Mentorship</a>
+                    <a class="salt-home-button" href="https://www.davistech.edu/ombuds/" target="_blank" rel="noopener">Ombuds</a>
+                </div>
+            </div>
+            <div class="salt-home-tab-panel">
+                <h3 class="salt-home-tab-title">Campus &amp; Student Services</h3>
+                <div class="salt-home-buttons">
+                    <a class="salt-home-button" href="https://www.davistech.edu/student-information/current-students" target="_blank" rel="noopener">Student Information</a>
+                    <a class="salt-home-button" href="https://www.davistech.edu/virtual-tour" target="_blank" rel="noopener">Campus Map</a>
+                    <a class="salt-home-button" href="https://davistech.instructure.com/courses/621530" target="_blank" rel="noopener">Live-On Utah</a>
+                    <a class="salt-home-button" href="https://www.davistech.edu/calendar/graduation" target="_blank" rel="noopener">Graduation Application</a>
+                </div>
+            </div>
+            <div class="salt-home-tab-panel">
+                <h3 class="salt-home-tab-title">Wellness, Safety &amp; Career Success</h3>
+                <div class="salt-home-buttons">
+                    <a class="salt-home-button" href="https://www.davistech.edu/cares-center/" target="_blank" rel="noopener">CARES Center</a>
+                    <a class="salt-home-button" href="https://www.davistech.edu/career-placement-services/" target="_blank" rel="noopener">Career Placement Center</a>
+                </div>
+            </div>
+        </div>
+        <p class="salt-home-top"><a href="#">Back to top</a></p>
+    </div>
+</div>

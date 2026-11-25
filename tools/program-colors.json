@@ -1,0 +1,39 @@
+{
+    "default": "plumbing",
+    "programs": {
+        "plumbing": {
+            "name": "Plumbing",
+            "primary": "#144992",
+            "secondary": "#b32839",
+            "light": "#c3d3e8",
+            "pale": "#eaf1fb",
+            "gray": "#dddddd",
+            "white": "#ffffff",
+            "text": "#262626"
+        },
+        "hvac": {
+            "name": "HVACR",
+            "primary": "#144931",
+            "secondary": "#3a3e41",
+            "light": "#c3d8ca",
+            "pale": "#eaf3ed",
+            "gray": "#e8e8e8",
+            "white": "#ffffff",
+            "text": "#262626"
+        },
+        "electrical": {
+            "name": "Electrical",
+            "primary": "#484959",
+            "secondary": "#0062b8",
+            "light": "#bcc2ce",
+            "pale": "#e3e6ed",
+            "gray": "#bcc2ce",
+            "white": "#ffffff",
+            "text": "#262626",
+            "style": {
+                "tabs": "folder",
+                "cards": "outlined"
+            }
+        }
+    }
+}
